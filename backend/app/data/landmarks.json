@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Brooklyn Bridge",
+    "neighborhood": "Downtown Brooklyn",
+    "borough": "Brooklyn",
+    "lat": 40.7061,
+    "lng": -73.9969
+  },
+  {
+    "name": "Grand Central Terminal",
+    "neighborhood": "Midtown",
+    "borough": "Manhattan",
+    "lat": 40.7527,
+    "lng": -73.9772
+  },
+  {
+    "name": "Apollo Theater",
+    "neighborhood": "Harlem",
+    "borough": "Manhattan",
+    "lat": 40.8100,
+    "lng": -73.9493
+  }
+]

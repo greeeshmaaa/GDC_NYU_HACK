@@ -1,0 +1,53 @@
+{
+  "Brooklyn Bridge": {
+    "community_summary": "This landmark connects major parts of the city and sits near strong public transit and waterfront public space.",
+    "nearby_resources": [
+      "Subway stations within walking distance",
+      "Waterfront public space nearby",
+      "Pedestrian and cycling access"
+    ],
+    "environmental_context": [
+      "Open-air public space and riverfront views",
+      "Nearby shaded and park-like areas"
+    ],
+    "helpful_actions": [
+      "Show transit options",
+      "Explore nearby public spaces",
+      "Find nearby cultural landmarks"
+    ]
+  },
+  "Grand Central Terminal": {
+    "community_summary": "This area is one of the city’s strongest transit hubs, with major rail and subway connectivity.",
+    "nearby_resources": [
+      "Regional and subway transit access",
+      "Nearby library and public spaces",
+      "Walkable Midtown connections"
+    ],
+    "environmental_context": [
+      "Dense urban public infrastructure",
+      "Strong indoor-outdoor connectivity"
+    ],
+    "helpful_actions": [
+      "Show accessible transit options",
+      "Find nearby public spaces",
+      "Explore nearby civic landmarks"
+    ]
+  },
+  "Apollo Theater": {
+    "community_summary": "This landmark sits within a culturally significant neighborhood with nearby transit and community institutions.",
+    "nearby_resources": [
+      "Nearby subway access",
+      "Cultural destinations nearby",
+      "Community-oriented institutions in the area"
+    ],
+    "environmental_context": [
+      "Urban streetscape with neighborhood cultural activity",
+      "Nearby open and walkable public routes"
+    ],
+    "helpful_actions": [
+      "Explore nearby culture",
+      "Show transit options",
+      "Find nearby public amenities"
+    ]
+  }
+}
