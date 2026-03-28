@@ -1,8 +1,7 @@
 import json
 from pathlib import Path
 
-
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "processed"
 
 
 def load_json(filename: str):
@@ -11,14 +10,19 @@ def load_json(filename: str):
         return json.load(f)
 
 
-def get_landmarks():
-    return load_json("landmarks.json")
+def get_landmark_context():
+    return load_json("landmark_context.json")
 
 
-def get_community_profiles():
-    return load_json("community_profiles.json")
+def get_unified_places():
+    return load_json("unified_places.json")
 
 
-def get_profile_for_landmark(landmark_name: str):
-    profiles = get_community_profiles()
-    return profiles.get(landmark_name, {})
+def get_landmark_by_name(landmark_name: str):
+    context = get_landmark_context()
+    return context.get(landmark_name)
+
+
+def get_all_landmark_names():
+    context = get_landmark_context()
+    return list(context.keys())
