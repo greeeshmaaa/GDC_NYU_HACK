@@ -1,0 +1,63 @@
+# ----------------------
+# Python
+# ----------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+# ----------------------
+# Environment files
+# ----------------------
+.env
+.env.*
+!.env.example
+
+# ----------------------
+# FastAPI / backend
+# ----------------------
+backend/.env
+backend/.pytest_cache/
+backend/.mypy_cache/
+
+# ----------------------
+# Node / Next.js
+# ----------------------
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# ----------------------
+# Next.js env files
+# ----------------------
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ----------------------
+# OS / Editor
+# ----------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+
+# ----------------------
+# Coverage / caches
+# ----------------------
+.coverage
+htmlcov/
+.cache/
